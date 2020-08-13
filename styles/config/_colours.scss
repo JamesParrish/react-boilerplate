@@ -3,7 +3,7 @@ $colours: (
   "white": #fff,
 );
 
-$page-colors: (
+$page-colours: (
   "page-background": map-get($colours, "black"),
   "page-colour": map-get($colours, "white"),
 );
