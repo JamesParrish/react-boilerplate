@@ -11,11 +11,11 @@
 }
 
 .c-4-12 {
-    width: percentage(4/12);
+    width: percentage(calc(4/12));
     float: left;
 }
 
 .c-6-12 {
-    width: percentage(6/12);
+    width: percentage(calc(6/12));
     float: left;
 }
