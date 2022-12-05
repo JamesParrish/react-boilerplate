@@ -6,7 +6,7 @@
     $base-size: map-get($scale, zeta);
 
     @include only($name) {
-      font-size: #{$font-size / $base-size}rem;
+      font-size: #{calc($font-size / $base-size)}rem;
     }
   }
 }
