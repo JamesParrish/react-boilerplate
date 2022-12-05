@@ -12,8 +12,8 @@
       delta:   $rootsize * 1.333333, // h3
       epsilon: $rootsize * 1.111111, // h4
       zeta:    $rootsize,            // h5
-      eta:     $rootsize / 1.125,    // h6
-      theta:   $rootsize / 1.286,
+      eta:     calc($rootsize / 1.125),    // h6
+      theta:   calc($rootsize / 1.286),
     );
   }
   
